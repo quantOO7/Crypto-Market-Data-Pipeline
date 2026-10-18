@@ -160,41 +160,67 @@ Check the current code and configuration before running commands; options and su
 
 ---
 
-## 📸 Output Screenshots & Sample Data
+# 📸 Output Screenshots & Sample Data
 
-Explore real outputs from the Quantoo7 Crypto Market Data Pipeline, including order book snapshots, historical data collection, and terminal execution.
+Explore real outputs from the Quantoo7 Crypto Market Data Pipeline, including L2 order book snapshots, historical data collection, and pipeline execution.
 
-### 📊 1. L2 Order Book — Market Depth Snapshot
+---
 
-Sample Level 2 order book data showing bid and ask levels.
+## 📊 1. L2 Order Book — Best Bid & Ask
+
+Sample L2 order book data showing market depth, bid and ask prices, and exported Excel output.
 
 <p align="center">
-  <img src="./output%20screenshots/L2%20orderbook%20data%20snapshot.jpeg"
+  <img src="./sample%20L2%20output%20excel%20best%20bid%20ask.png"
+       alt="Sample L2 order book Excel output"
+       width="100%">
+</p>
+
+---
+
+## 📈 2. L2 Order Book — Market Depth Snapshot
+
+A snapshot of the collected Level 2 order book data.
+
+<p align="center">
+  <img src="./L2_orderbook_data_snapshot.jpeg"
        alt="L2 order book data snapshot"
        width="100%">
 </p>
 
 ---
 
-### 💻 2. Terminal Output — Data Pipeline Execution
+## 💻 3. Terminal Output — Pipeline Execution
 
-A look at the pipeline's terminal output during data collection and processing.
+Example terminal output from the market data collection pipeline.
 
 <p align="center">
-  <img src="./output%20screenshots/terminal%20output%20selection%20ss.png"
-       alt="Crypto market data pipeline terminal output"
+  <img src="./terminal%20output%20selection%20ss.png"
+       alt="Market data pipeline terminal output"
        width="100%">
 </p>
 
 ---
 
-### ⚡ 3. BTCUSDT — 1-Second Historical Backfill
+## ⚡ 4. BTCUSDT — Historical Backfill
 
-Example terminal command for fetching historical BTCUSDT market data at 1-second intervals.
+Example of the command used to collect historical BTCUSDT market data at one-second intervals.
 
 <p align="center">
-  <img src="./output%20screenshots/btcusdt%201s%20historical%20backfill%20terminal%20command%20ss.png"
-       alt="BTCUSDT one-second historical backfill terminal command"
+  <img src="./btcusdt%201s%20historical%20backfill%20terminal%20comma.png"
+       alt="BTCUSDT one-second historical backfill command"
+       width="100%">
+</p>
+
+---
+
+## ⚙️ 5. Historical Backfill — YAML Configuration
+
+Example configuration for defining market symbols and the data types to collect.
+
+<p align="center">
+  <img src="./btcusdt%201s%20historical%20backfill%20yaml%20file%20ss.png"
+       alt="Historical backfill YAML configuration"
        width="100%">
 </p>
 
