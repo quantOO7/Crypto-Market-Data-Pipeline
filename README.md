@@ -89,32 +89,73 @@ The table below summarises the data types that can be requested. **Availability 
 
 To check availability, email the **platform, market, symbol/market ID, data type, start/end dates, desired interval or depth, and output format**. Confirm the quote and coverage before paying.
 
-## 🌐 Supported Platforms
+## 🌐 Supported Platforms & Exchanges
 
 <div align="center">
 
-| Platform / venue | Potential data coverage |
-|:--|:--|
-| 🟡 **Binance Spot** | Candles, trades, L1/L2 collection, and other supported market endpoints |
-| 🟡 **Binance USDⓈ-M Futures** | Candles, trades, funding, open interest, and supported derivatives data |
-| 🔮 **Polymarket** | Market metadata, prices, trades, order-book snapshots, and supported CLOB data |
-| 🔧 **Other platforms** | Ask about the venue and exact dataset you need |
+| Platform / Venue | Market | Potential Data Coverage |
+|:--|:--|:--|
+| 🟡 **Binance Spot** | Crypto Spot | OHLCV, trades, L1/L2 order books, market depth |
+| 🟡 **Binance USDⓈ-M Futures** | Crypto Derivatives | OHLCV, trades, L1/L2, funding rates, open interest, liquidations |
+| 🟡 **Binance COIN-M Futures** | Crypto Derivatives | Candles, trades, order books, funding and derivatives data |
+| 🔵 **Bybit Spot** | Crypto Spot | OHLCV, trades, L1/L2 order books, market depth |
+| 🔵 **Bybit USDT Perpetuals** | Crypto Derivatives | Candles, trades, order books, funding, open interest |
+| 🔵 **Bybit Inverse Contracts** | Crypto Derivatives | Candles, trades, order books and derivatives data |
+| 🟣 **Bitget Spot** | Crypto Spot | Candles, trades, order books and market data |
+| 🟣 **Bitget Futures** | Crypto Derivatives | Candles, trades, order books, funding and contract data |
+| 🔷 **Deribit** | Crypto Derivatives | Options, futures, trades, order books, implied volatility and Greeks where available |
+| 🔶 **OKX** | Crypto Spot & Derivatives | Candles, trades, order books, funding and derivatives data |
+| 🟠 **Coinbase Advanced Trade** | Crypto Spot & Derivatives | Candles, trades, order books and supported market data |
+| 🟢 **Kraken** | Crypto Spot & Derivatives | Candles, trades, order books and supported market data |
+| 🔴 **KuCoin** | Crypto Spot & Futures | Candles, trades, order books and supported derivatives data |
+| 🔵 **Gate.io** | Crypto Spot & Derivatives | Candles, trades, order books and contract data |
+| 🟡 **MEXC** | Crypto Spot & Futures | Candles, trades, order books and supported market data |
+| 🟣 **Hyperliquid** | Decentralized Perpetuals | Trades, order books, candles, funding and market metadata |
+| 🔮 **Polymarket** | Prediction Markets | Market metadata, prices, trades, order books and supported CLOB data |
+| 🎯 **Kalshi** | Prediction Markets | Market metadata, prices, trades and supported order-book data |
+| 📈 **Interactive Brokers (IBKR)** | Stocks, Futures, Options, FX | Historical bars, quotes, trades and supported market data |
+| 🇮🇳 **NSE India** | Indian Equities & Derivatives | Historical data, quotes and derivatives data subject to access and licensing |
+| 🇮🇳 **BSE India** | Indian Equities & Derivatives | Historical data, quotes and derivatives data subject to access and licensing |
+| 🇮🇳 **NSE NIFTY 50** | Indian Equity Index | Index values and historical data through supported data sources |
+| 🇮🇳 **NIFTY Bank** | Indian Banking Index | Index values and historical data through supported data sources |
+| 🇺🇸 **NASDAQ** | US Equities | Historical prices, trades and order-book data where licensed |
+| 🇺🇸 **NYSE** | US Equities | Historical prices, trades and order-book data where licensed |
+| 🌎 **CME Group** | Futures & Options | Futures, options and market data subject to exchange access and licensing |
+| 💱 **Forex Markets** | FX | Historical prices, quotes and supported broker data |
+| 🔧 **Custom Integrations** | Multiple Markets | Custom APIs, WebSockets, historical archives and data pipelines |
 
 </div>
 
-More venues and data types can be discussed on request. Coverage is confirmed **per request**; this page is not a claim that every dataset is already stored or available for immediate delivery.
+---
 
-## 🧱 Data Formats
+### 📊 Supported Data Types
 
-Choose the format that best fits your workflow:
+| Data Type | Description |
+|:--|:--|
+| **OHLCV / Candles** | Open, high, low, close and volume |
+| **Tick Trades** | Individual executed trades where available |
+| **L1 Market Data** | Best bid, best ask, spread and top-of-book quantities |
+| **L2 Order Book** | Multiple price levels and market depth |
+| **L3 Order Book** | Order-level data where the venue provides access |
+| **Funding Rates** | Perpetual futures funding information |
+| **Open Interest** | Outstanding derivatives contracts |
+| **Liquidations** | Liquidation events where available |
+| **Options Data** | Options prices, implied volatility and Greeks where supported |
+| **Market Metadata** | Symbols, instruments, contract specifications and trading rules |
+| **Historical Archives** | Historical datasets subject to source availability |
+| **Real-Time Streams** | WebSocket market data where supported |
 
-- **Parquet** — columnar storage for large datasets and analytics
-- **CSV** — convenient for quick inspection and broad tool compatibility
-- **JSON / JSONL** — structured records and event data
-- **Excel** — conversion or exports for smaller datasets, where practical
+---
 
-For large order-book datasets, **Parquet is generally recommended** because it is compact and works well with tools such as Python, Polars, and PyArrow.
+### 💾 Supported Export Formats
 
+- **Parquet** — Efficient storage for quantitative research and backtesting.
+- **CSV** — Portable tabular data.
+- **JSON / JSONL** — Structured records and streaming data.
+- **Excel** — Spreadsheet-friendly output where supported.
+- **Custom Formats** — Available on request.
+
+> **Important:** Platform listings indicate potential integration targets, not a guarantee that every dataset is currently implemented or included. Actual availability depends on the current pipeline implementation, API access, historical coverage, exchange permissions, rate limits, and data licensing. Contact us to confirm the exact venue, market, data types, and historical date range before purchasing.
 ## 🖥️ Data Pipeline & Tooling
 
 This repository may include tools for collecting, processing, storing, and converting market data.
