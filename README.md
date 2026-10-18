@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="#-buy-now">
+    <img src="https://img.shields.io/badge/💰_BUY_NOW-Get_Full_Source_Code-success?style=for-the-badge&logo=bitcoin&logoColor=white" alt="Buy Now — Get Full Source Code">
+  </a>
+</p>
+
 <div align="center">
 
 # ⚡ Quantoo7 — Market Data & Quant Trading Infrastructure
@@ -162,67 +168,45 @@ Check the current code and configuration before running commands; options and su
 
 # 📸 Output Screenshots & Sample Data
 
-Explore real outputs from the Quantoo7 Crypto Market Data Pipeline, including L2 order book snapshots, historical data collection, and pipeline execution.
-
----
+Explore sample outputs from the Quantoo7 Crypto Market Data Pipeline.
 
 ## 📊 1. L2 Order Book — Best Bid & Ask
 
-Sample L2 order book data showing market depth, bid and ask prices, and exported Excel output.
+Sample L2 order book data exported to Excel.
 
-<p align="center">
-  <img src="./sample%20L2%20output%20excel%20best%20bid%20ask.png"
-       alt="Sample L2 order book Excel output"
-       width="100%">
-</p>
+![L2 Order Book Excel Output](./sample%20L2%20output%20excel%20best%20bid%20ask.png)
 
 ---
 
 ## 📈 2. L2 Order Book — Market Depth Snapshot
 
-A snapshot of the collected Level 2 order book data.
+Snapshot of collected Level 2 order book data.
 
-<p align="center">
-  <img src="./L2_orderbook_data_snapshot.jpeg"
-       alt="L2 order book data snapshot"
-       width="100%">
-</p>
+![L2 Order Book Data Snapshot](./L2%20orderbook%20data%20snapshot.jpeg)
 
 ---
 
 ## 💻 3. Terminal Output — Pipeline Execution
 
-Example terminal output from the market data collection pipeline.
+Terminal output showing the market data pipeline in action.
 
-<p align="center">
-  <img src="./terminal%20output%20selection%20ss.png"
-       alt="Market data pipeline terminal output"
-       width="100%">
-</p>
+![Market Data Pipeline Terminal Output](./terminal%20output%20selection%20ss.png)
 
 ---
 
 ## ⚡ 4. BTCUSDT — Historical Backfill
 
-Example of the command used to collect historical BTCUSDT market data at one-second intervals.
+Terminal command for historical BTCUSDT data collection.
 
-<p align="center">
-  <img src="./btcusdt%201s%20historical%20backfill%20terminal%20comma.png"
-       alt="BTCUSDT one-second historical backfill command"
-       width="100%">
-</p>
+![BTCUSDT Historical Backfill Terminal](./btcusdt%201s%20historical%20backfill%20terminal%20command%20ss.png)
 
 ---
 
 ## ⚙️ 5. Historical Backfill — YAML Configuration
 
-Example configuration for defining market symbols and the data types to collect.
+Example YAML configuration for selecting symbols and data types.
 
-<p align="center">
-  <img src="./btcusdt%201s%20historical%20backfill%20yaml%20file%20ss.png"
-       alt="Historical backfill YAML configuration"
-       width="100%">
-</p>
+![Historical Backfill YAML Configuration](./btcusdt%201s%20historical%20backfill%20yaml%20file%20ss.png)
 
 ---
 
@@ -259,6 +243,17 @@ Want to buy the available source code directly?
 3. Put the **Bitcoin transaction hash (TXID) in the email subject**.
 
 **BTC payment address:** `bc1qzf6dqpguyxnajuq6t3tulwtk7jsaprmjajeqjq`
+
+<a id="-buy-now"></a>
+
+# 💰 Buy Now
+
+**Get the complete Quantoo7 Crypto Market Data Pipeline source code.**
+
+- **Price:** $100 USD
+- **Payment:** Bitcoin (BTC)
+
+Contact: YOUR_EMAIL@example.com
 
 Use this email subject format:
 
