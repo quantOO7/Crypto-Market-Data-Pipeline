@@ -253,7 +253,7 @@ Want to buy the available source code directly?
 - **Price:** $100 USD
 - **Payment:** Bitcoin (BTC)
 
-Contact: YOUR_EMAIL@example.com
+Contact: hex_user_0x1@proton.me
 
 Use this email subject format:
 
