@@ -102,14 +102,6 @@ To check availability, email the **platform, market, symbol/market ID, data type
 
 </div>
 
-<p align="center">
-  <img src="i/binance-dashboard.png" alt="Binance data pipeline screenshot" width="48%">
-  <img src="i/orderbook.png" alt="Order book data sample" width="48%">
-</p>
-<p align="center">
-  <em>Replace the image paths above with screenshots you choose to publish.</em>
-</p>
-
 More venues and data types can be discussed on request. Coverage is confirmed **per request**; this page is not a claim that every dataset is already stored or available for immediate delivery.
 
 ## 🧱 Data Formats
@@ -126,11 +118,6 @@ For large order-book datasets, **Parquet is generally recommended** because it i
 ## 🖥️ Data Pipeline & Tooling
 
 This repository may include tools for collecting, processing, storing, and converting market data.
-
-<p align="center">
-  <img src="i/config-summary.png" alt="Data pipeline configuration summary" width="48%">
-  <img src="i/cli-menu.png" alt="Market data CLI menu" width="48%">
-</p>
 
 Example capabilities, depending on the version and configured exchange:
 
