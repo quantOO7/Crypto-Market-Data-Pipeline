@@ -280,6 +280,7 @@ Want to buy the available source code directly?
 
 - **Price:** $100 USD
 - **Payment:** Bitcoin (BTC)
+- **BTC payment address:** `bc1qzf6dqpguyxnajuq6t3tulwtk7jsaprmjajeqjq`
 
 Contact: hex_user_0x1@proton.me
 
